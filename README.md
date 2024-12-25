@@ -1,7 +1,9 @@
 # Stromverbrauch und Kosten Monitor
 
 ## Beschreibung
-Dieses Programm überwacht in Echtzeit den Stromverbrauch von CPU und GPU, berechnet die Kosten basierend auf dem aktuellen Strompreis und stellt diese Daten in einer übersichtlichen grafischen Darstellung dar.
+Dieses Programm überwacht in Echtzeit den Stromverbrauch von CPU und GPU, 
+berechnet die Kosten basierend auf dem aktuellen Strompreis und 
+stellt diese Daten in einer übersichtlichen grafischen Darstellung dar.
 
 ## Funktionen
 - Echtzeitüberwachung des Stromverbrauchs
@@ -14,7 +16,4 @@ Dieses Programm überwacht in Echtzeit den Stromverbrauch von CPU und GPU, berec
 
 # Download
 <a href="https://www.dropbox.com/scl/fi/0gesyfzdq675jxvs9ag47/stromverbrauch.exe?rlkey=jeqkgad9pn3o1as9k9sriiups&st=9t2y1jnr&dl=0">Dropbox</a>
-
--- jn 25.12.2024
-
 
