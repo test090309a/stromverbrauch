@@ -1,0 +1,37 @@
+Erstelle eine EXE mit Nuitka
+
+Navigiere im Terminal oder der Eingabeaufforderung in das Verzeichnis, in dem sich dein Python-Skript befindet. Führe dann den folgenden Befehl aus:
+
+1. python -m nuitka --standalone --onefile --windows-disable-console stromverbrauch_korrektur.py
+   python -m nuitka --windows-icon-from-ico=icons/stromverbruch_icon_48px_1.ico --onefile stromverbrauch.py
+   python -m nuitka --windows-file-version-resource=version.rc --onefile stromverbrauch.py                             // braucht ewig zu kompilieren.
+   python -m nuitka --mingw64 --windows-icon-from-ico=icons/stromverbruch_icon_48px_1.ico --onefile stromverbrauch.py  // der schnellste kompiler, wir runtergeladen.
+
+Optionen erklärt:
+
+    --standalone: Erstellt ein eigenständiges Programm, das alle Abhängigkeiten enthält.
+    --onefile: Verpackt alle Dateien in eine einzige EXE.
+    --windows-disable-console: Deaktiviert die Konsolenausgabe (nur für GUI-Programme).
+
+--jn 09:36 24.12.2024
+2. rcedit stromverbrauch_release_icon.exe --set-icon favicon.ico
+   rcedit stromverbrauch_release_icon.exe --set-icon icons/stromverbrauch_icon_48px_1.ico
+
+--jn 13:34 24.12.2024
+Die Anzeige ist jetzt kleiner 5 Zeilen 7 bis 9 Zeichen. ASCII Art Dotmatrix
+Logfile mit Gesamtkosten im temp Verzeichnis.
+Kommastelle auf drei erhöht.
+
+--jn 14:50 25.12.2024
+Der Durchschnitt wird jetzt alle fünf Minuten ausgegeben.
+Die Versions Infos werden mit Resource Hacker eingepflegt. rcedit.exe laden und die VersionsInfo ist da.
+
+1. Kompilieren: 
+python -m nuitka --mingw64 --standalone --onefile stromverbrauch.py
+
+2. Icon: 
+rcedit stromverbrauch.exe --set-icon icons/stromverbrauch_icon_48px_1.ico
+
+3. Und die VersionsInfo einpflegen.
+Resource Hacker öffne stromverbrauch.exe.
+Action - Add from a Resource file (*.res, *.mui, *.dll, *,exe)
