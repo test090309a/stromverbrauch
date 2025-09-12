@@ -1,3 +1,5 @@
+big_digits.py muss im verzeichnis sein.
+
 Erstelle eine EXE mit Nuitka
 
 Navigiere im Terminal oder der Eingabeaufforderung in das Verzeichnis, in dem sich dein Python-Skript befindet. Führe dann den folgenden Befehl aus:
@@ -35,3 +37,9 @@ rcedit stromverbrauch.exe --set-icon icons/stromverbrauch_icon_48px_1.ico
 3. Und die VersionsInfo einpflegen.
 Resource Hacker öffne stromverbrauch.exe.
 Action - Add from a Resource file (*.res, *.mui, *.dll, *,exe)
+
+4. Datum Zeitstempel ändern.
+BulkFileChanger: 
+
+Github Link
+https://test090309a.github.io/stromverbrauch/
