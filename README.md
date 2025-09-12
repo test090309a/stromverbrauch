@@ -1,3 +1,5 @@
+--jn 12.09.2025: Preis oben und keine Wartezeit.
+
 # Stromverbrauch und Kosten Monitor
 
 ## Beschreibung
