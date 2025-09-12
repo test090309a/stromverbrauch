@@ -1,12 +1,11 @@
-<<<<<<< HEAD
+
 # STROMVERBRAUCH MONITOR
 # Zeigt den aktuellen Stromverbrauch und die Kosten in Echtzeit an.
 # Version 1.3 vom 12.09.2025
 # J.N. aka DFT aka i2u5h
 # Ich will den Strompreis im Auge behalten.
 
-=======
->>>>>>> 299a449 (Datei stromverbrauch V 1.3 hinzugefügt)
+
 import subprocess
 import time
 import os
