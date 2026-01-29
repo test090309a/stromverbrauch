@@ -14,8 +14,4 @@ stellt diese Daten in einer übersichtlichen grafischen Darstellung dar.
 - Logging der Verbrauchsdaten in eine Datei
 
 ## Installation
-1. Klonen Sie das Repository:
-
-# Download
-<a href="https://www.dropbox.com/scl/fi/0gesyfzdq675jxvs9ag47/stromverbrauch.exe?rlkey=jeqkgad9pn3o1as9k9sriiups&st=9t2y1jnr&dl=0">Dropbox</a>
-
+1. Klone das Repository:
