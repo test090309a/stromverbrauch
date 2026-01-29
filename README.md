@@ -12,6 +12,3 @@ stellt diese Daten in einer übersichtlichen grafischen Darstellung dar.
 - Berechnung der Kosten basierend auf dem aktuellen Strompreis
 - Grafische Darstellung der Verbrauchsdaten
 - Logging der Verbrauchsdaten in eine Datei
-
-## Installation
-1. Klone das Repository:
